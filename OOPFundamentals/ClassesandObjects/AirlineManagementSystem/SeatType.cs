@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AirlineManagementSystem
 {
-    class Program
+    enum SeatType
     {
-        static void Main(string[] args)
-        {
-        }
+        ECONOMY,
+        PREMIUM_ECONOMY,
+        BUSINESS,
+        FIRST_CLASS
     }
 }
