@@ -11,8 +11,7 @@ namespace CheckPalindrome
     {
         static void Main(string[] args)
         {
-            string word = "heh hih lwk mam wow huh hell";
-
+            string word = "heh hih mam wow huh lel jaf mox puz tit baf lol gag tat dax zez nun pip pop mum nan kik sas kek lil juj wax juj kof jyj faf ses fof tut dód gog pep pop sós féf bób mem fuf ror pip tat jéj mum pop xex hih fuf kak rur fof féf pop lul nón fuf pop sós sés pup pop hih fuf gag nan tat tut nun pop gag sés pop tut sis kek pip pop juj sés nan kók lil faf lol mem kak juj pop tut sés gag lul hih pop kek nan sés fuf pop sis dad pop lil pop mem nan pep tut sis pop rar pop mom pop gag lul lil pop fuf mim pop kek tat fuf gag fuf pop lul dad nan sés pip pop kak tut pip pop mem pop gag ses nun dad pop gag sés fuf pip mom dad kek hih pop lol lul fuf pop lul fuf nan sés fuf pop pep pip pop lul pop tat sis hih mom pop tat lul fuf pop pip sis nan pop fuf lul pop gag tut fuf pop lul hih pop gig pip tut pop lul gag hih pop fuf lul pip pop kek dad nan pop gag tut fuf pop lul hih pop gig pip tut pop baf lwk hell met nax rot pes map ket vis lur kof sub tim ped rip tix cud fan wag jet fin cob mud leg dot sun cat hen bit dog run map cap lip sat";
             string[] words = word.Split(' ');
 
             object lockObj = new object();
@@ -69,9 +68,6 @@ namespace CheckPalindrome
 
                           Console.WriteLine(
                               $"Thread {Thread.CurrentThread.ManagedThreadId}: " + $"{currentWord} = {IsPalindrome(currentWord)}");
-
-                          Thread.Sleep(100);
-
                       }
                   });
 
