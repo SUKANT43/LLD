@@ -31,14 +31,11 @@ namespace UIThreading
             {
                 label1.Text = txt;
             }
-
         }
 
         public void SetForm1(Form1 form1)
         {
             _form1 = form1;
         }
-
-
     }
 }

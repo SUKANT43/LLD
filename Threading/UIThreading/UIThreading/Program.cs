@@ -53,7 +53,6 @@ namespace UIThreading
 
             form1.TextChangedEvent += form2.UpdaeText;
 
-
             thread1.Join();
             thread2.Join();
 
